@@ -29,5 +29,6 @@ resource "aws_instance" "example" {
   tags = {
     Project = "epam-tf-lab"
     ID      = "cmtr-otuokx4e"
+    Name    = "cmtr-otuokx4e-ec2"
   }
 }
